@@ -53,8 +53,8 @@ var demo123CF_CopyFieldValue = new function() {
 }
 
 $( document ).ready(function() {
-    demo123CF_CopyFieldValue.setFieldOriginID('36148866') ;
-    demo123CF_CopyFieldValue.setFieldDestinationID('36073643');
+    demo123CF_CopyFieldValue.setFieldOriginID('36073643') ;
+    demo123CF_CopyFieldValue.setFieldDestinationID('36148866');
 	
     demo123CF_CopyFieldValue.init();
 });
