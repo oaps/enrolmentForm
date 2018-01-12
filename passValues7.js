@@ -10,6 +10,10 @@ var demo123CF_CopyFieldValue = new function() {
     this.fieldDestination2 = '';
     this.fieldDestination3 = '';
     this.fieldDestination4 = '';
+    this.fieldDestination5 = '';
+    this.fieldDestination6 = '';
+    this.fieldDestination7 = '';
+    this.fieldDestination8 = '';
 
     this.setFieldOriginID = function ( fieldId1, fieldId2 ) {
         this.fieldOrigin1 = fieldId1;
@@ -21,6 +25,10 @@ var demo123CF_CopyFieldValue = new function() {
         this.fieldDestination2 = fieldId2;
         this.fieldDestination3 = fieldId3;
         this.fieldDestination4 = fieldId4;
+        this.fieldDestination5 = fieldId1;
+        this.fieldDestination6 = fieldId2;
+        this.fieldDestination7 = fieldId3;
+        this.fieldDestination8 = fieldId4;
     }
 
 
@@ -51,6 +59,10 @@ var demo123CF_CopyFieldValue = new function() {
 	$(this.id123cf+this.fieldDestination2).val($(this.id123cf+this.fieldOrigin2).val());
         $(this.id123cf+this.fieldDestination3).val($(this.id123cf+this.fieldOrigin1).val());
 	$(this.id123cf+this.fieldDestination4).val($(this.id123cf+this.fieldOrigin2).val());
+        $(this.id123cf+this.fieldDestination5).val($(this.id123cf+this.fieldOrigin1).val());
+	$(this.id123cf+this.fieldDestination6).val($(this.id123cf+this.fieldOrigin2).val());
+        $(this.id123cf+this.fieldDestination7).val($(this.id123cf+this.fieldOrigin1).val());
+	$(this.id123cf+this.fieldDestination8).val($(this.id123cf+this.fieldOrigin2).val());
     }
 
     this.setOnChange = function () {
@@ -71,7 +83,10 @@ var demo123CF_CopyFieldValue = new function() {
 
 $( document ).ready(function() {
     demo123CF_CopyFieldValue.setFieldOriginID('36040704-1', '36040704-2');
-    demo123CF_CopyFieldValue.setFieldDestinationID('36198052-1','36198052-2', '36198259-1','36198259-2');
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198052-1','36198052-2',
+						  '36198259-1','36198259-2', 
+						  '36198489-1', '36198489-2',
+						  '36198607-1', '36198607-2');
 	
     demo123CF_CopyFieldValue.init();
 });
