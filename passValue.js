@@ -35,17 +35,7 @@ var demo123CF_CopyFieldValue = new function() {
             this.errorMessage = 'Invalid origin field';
         if(!$(this.id123cf+this.fieldOrigin2).length)
             this.errorMessage = 'Invalid origin field';
-        if(!$(this.id123cf+this.fieldDestination1).length)
-            this.errorMessage = 'Invalid destination field1';
-        if(!$(this.id123cf+this.fieldDestination2).length)
-            this.errorMessage = 'Invalid destination field2';
-        if(!$(this.id123cf+this.fieldDestination3).length)
-            this.errorMessage = 'Invalid destination field3';
-        if(!$(this.id123cf+this.fieldDestination4).length)
-            this.errorMessage = 'Invalid destination field4';
-        if(!$(this.id123cf+this.fieldDestination5).length)
-            this.errorMessage = 'Invalid destination field5';
-
+	    
         return this.errorMessage == '';
     }
 
@@ -57,9 +47,9 @@ var demo123CF_CopyFieldValue = new function() {
 
         $(this.id123cf+this.fieldDestination1).val($(this.id123cf+this.fieldOrigin1).val());
         $(this.id123cf+this.fieldDestination2).val($(this.id123cf+this.fieldOrigin2).val());
-	$(this.id123cf+this.fieldDestination3).val($(this.id123cf+this.fieldOrigin3).val());
-	$(this.id123cf+this.fieldDestination4).val($(this.id123cf+this.fieldOrigin4).val());
-	$(this.id123cf+this.fieldDestination5).val($(this.id123cf+this.fieldOrigin5).val());
+	$(this.id123cf+this.fieldDestination3).val($(this.id123cf+this.fieldOrigin1).val());
+	$(this.id123cf+this.fieldDestination4).val($(this.id123cf+this.fieldOrigin2).val());
+
     }
 
     this.setOnChange = function () {
@@ -68,8 +58,8 @@ var demo123CF_CopyFieldValue = new function() {
             return;
         }
 
-        //change event from start date to be copied to end date
-        $(this.id123cf+this.fieldOrigin).change(function() {
+        //change event from child's name to be copied to all forms
+        $(this.id123cf+this.fieldOrigin1).change(function() {
             self.updateDestinationValue();
         });
 
