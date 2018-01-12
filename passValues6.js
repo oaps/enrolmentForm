@@ -63,6 +63,9 @@ var demo123CF_CopyFieldValue = new function() {
         $(this.id123cf+this.fieldOrigin1).change(function() {
             self.updateDestinationValue();
         });
+	$(this.id123cf+this.fieldOrigin2).change(function() {
+            self.updateDestinationValue();
+        });
     }
 }
 
