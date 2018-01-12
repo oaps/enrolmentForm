@@ -7,12 +7,14 @@ var demo123CF_CopyFieldValue = new function() {
     this.fieldOrigin = '';
     this.fieldDestination = '';
 
-    this.setFieldOriginID = function ( fieldId ) {
-        this.fieldOrigin = fieldId;
+    this.setFieldOriginID = function ( fieldId1, fieldId2 ) {
+        this.fieldOrigin1 = fieldId1;
+        this.fieldOrigin2 = fieldId2;
     }
 
-    this.setFieldDestinationID = function ( fieldId ) {
-        this.fieldDestination = fieldId;
+    this.setFieldDestinationID = function ( fieldId1, fieldId2 ) {
+        this.fieldDestination1 = fieldId1;
+        this.fieldDestination2 = fieldId2;	
     }
 
 
@@ -35,7 +37,8 @@ var demo123CF_CopyFieldValue = new function() {
             return;
         }
 
-        $(this.id123cf+this.fieldDestination).val($(this.id123cf+this.fieldOrigin).val());
+        $(this.id123cf+this.fieldDestination1).val($(this.id123cf+this.fieldOrigin1).val());
+        $(this.id123cf+this.fieldDestination2).val($(this.id123cf+this.fieldOrigin2).val());
     }
 
     this.setOnChange = function () {
@@ -53,8 +56,13 @@ var demo123CF_CopyFieldValue = new function() {
 }
 
 $( document ).ready(function() {
-    demo123CF_CopyFieldValue.setFieldOriginID('36073643') ;
-    demo123CF_CopyFieldValue.setFieldDestinationID('36148866');
+    demo123CF_CopyFieldValue.setFieldOriginID('36040704-1', '36040704-2') ;
+    demo123CF_CopyFieldValue.setFieldDestinationID('36181440-1', '36181440-2');
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198052-1', '36198052-2');
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198259-1', '36198259-2');	
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198489-1', '36198489-2');
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198607-1', '36198607-2');
+	
 	
     demo123CF_CopyFieldValue.init();
 });
