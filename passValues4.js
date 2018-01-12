@@ -43,7 +43,7 @@ var demo123CF_CopyFieldValue = new function() {
             return;
         }
 
-        $(this.id123cf+this.fieldDestination1).val($(this.id123cf+this.fieldOrigin2).val());
+        $(this.id123cf+this.fieldDestination1).val($(this.id123cf+this.fieldOrigin1).val());
 	$(this.id123cf+this.fieldDestination2).val($(this.id123cf+this.fieldOrigin2).val());
     }
 
@@ -63,6 +63,7 @@ var demo123CF_CopyFieldValue = new function() {
 $( document ).ready(function() {
     demo123CF_CopyFieldValue.setFieldOriginID('36040704-1', '36040704-2');
     demo123CF_CopyFieldValue.setFieldDestinationID('36198052-1','36198052-2');
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198259-1','36198259-2');
 	
     demo123CF_CopyFieldValue.init();
 });
