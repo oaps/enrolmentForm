@@ -60,7 +60,7 @@ var demo123CF_CopyFieldValue = new function() {
 }
 
 $( document ).ready(function() {
-    demo123CF_CopyFieldValue.setFieldOriginID('36040704');
+    demo123CF_CopyFieldValue.setFieldOriginID('36040704-1', '36040704-2');
     demo123CF_CopyFieldValue.setFieldDestinationID('36198052-1','36198052-2',
 						   '36198259-1', '36198259-2',
 						   '36198489-1', '36198489-2',
