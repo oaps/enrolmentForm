@@ -4,8 +4,6 @@ var demo123CF_CopyFieldValue = new function() {
     this.errorMessage = '';
 
     this.id123cf = '#id123-control';
-    this.one = '-1';
-    this.two = '-2';
     this.fieldOrigin1 = '';
     this.fieldOrigin2 = '';
     this.fieldDestination1 = '';
@@ -17,20 +15,20 @@ var demo123CF_CopyFieldValue = new function() {
     this.fieldDestination7 = '';
     this.fieldDestination8 = '';
 
-    this.setFieldOriginID = function ( fieldId1 ) {
-        this.fieldOrigin1 = fieldId1+'-1';
-        this.fieldOrigin2 = fieldId1+'-2';
+    this.setFieldOriginID = function ( fieldId1,fieldId2 ) {
+        this.fieldOrigin1 = fieldId1;
+        this.fieldOrigin2 = fieldId2';
     }
 
-    this.setFieldDestinationID = function ( fieldId1, fieldId2, fieldId3, fieldId4 ) {
-        this.fieldDestination1 = fieldId1+'-1';
-        this.fieldDestination2 = fieldId1+'-2';
-        this.fieldDestination3 = fieldId2+'-1';
-        this.fieldDestination4 = fieldId2+'-2';
-        this.fieldDestination5 = fieldId3+'-1';
-        this.fieldDestination6 = fieldId3+'-2';
-        this.fieldDestination7 = fieldId4+'-1';
-        this.fieldDestination8 = fieldId4+'-2';
+    this.setFieldDestinationID = function ( fieldId1, fieldId2, fieldId3, fieldId4, fieldId5, fieldId6, fieldId7, fieldId8 ) {
+        this.fieldDestination1 = fieldId1;
+        this.fieldDestination2 = fieldId2;
+        this.fieldDestination3 = fieldId3;
+        this.fieldDestination4 = fieldId4;
+        this.fieldDestination5 = fieldId5;
+        this.fieldDestination6 = fieldId6;
+        this.fieldDestination7 = fieldId7;
+        this.fieldDestination8 = fieldId8;
     }
 
 
@@ -67,7 +65,10 @@ var demo123CF_CopyFieldValue = new function() {
 
 $( document ).ready(function() {
     demo123CF_CopyFieldValue.setFieldOriginID('36040704');
-    demo123CF_CopyFieldValue.setFieldDestinationID('36198052', '36198259', '36198489', '36198607');
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198052-1','36198052-2',
+						   '36198259-1', '36198259-2',
+						   '36198489-1', '36198489-2',
+						   '36198607-1', '36198607-2');
 	
     demo123CF_CopyFieldValue.init();
 });
