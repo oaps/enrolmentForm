@@ -17,7 +17,7 @@ var demo123CF_CopyFieldValue = new function() {
 
     this.setFieldOriginID = function ( fieldId1,fieldId2 ) {
         this.fieldOrigin1 = fieldId1;
-        this.fieldOrigin2 = fieldId2';
+        this.fieldOrigin2 = fieldId2;
     }
 
     this.setFieldDestinationID = function ( fieldId1, fieldId2, fieldId3, fieldId4, fieldId5, fieldId6, fieldId7, fieldId8 ) {
