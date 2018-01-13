@@ -48,10 +48,6 @@ var demo123CF_CopyFieldValue = new function() {
     }
 
     this.setOnChange = function () {
-        if(!this.validateData()) {
-            //alert(this.errorMessage);
-            return;
-        }
 
         //change event from start date to be copied to end date
         $(this.id123cf+this.fieldOrigin1).change(function() {
