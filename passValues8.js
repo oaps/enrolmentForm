@@ -67,7 +67,7 @@ var demo123CF_CopyFieldValue = new function() {
 
     this.setOnChange = function () {
         if(!this.validateData()) {
-            alert(this.errorMessage);
+            //alert(this.errorMessage);
             return;
         }
 
