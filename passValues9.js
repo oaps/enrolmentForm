@@ -4,8 +4,8 @@ var demo123CF_CopyFieldValue = new function() {
     this.errorMessage = '';
 
     this.id123cf = '#id123-control';
-    this.1 = '-1';
-    this.2 = '-2';
+    this.one = '-1';
+    this.two = '-2';
     this.fieldOrigin1 = '';
     this.fieldOrigin2 = '';
     this.fieldDestination1 = '';
@@ -18,19 +18,19 @@ var demo123CF_CopyFieldValue = new function() {
     this.fieldDestination8 = '';
 
     this.setFieldOriginID = function ( fieldId1 ) {
-        this.fieldOrigin1+this.1 = fieldId1;
-        this.fieldOrigin2+this.2 = fieldId1;
+        this.fieldOrigin1+this.one = fieldId1;
+        this.fieldOrigin2+this.two = fieldId1;
     }
 
     this.setFieldDestinationID = function ( fieldId1, fieldId2, fieldId3, fieldId4 ) {
-        this.fieldDestination1+this.1 = fieldId1;
-        this.fieldDestination2+this.2 = fieldId1;
-        this.fieldDestination3+this.1 = fieldId2;
-        this.fieldDestination4+this.2 = fieldId2;
-        this.fieldDestination5+this.1 = fieldId3;
-        this.fieldDestination6+this.2 = fieldId3;
-        this.fieldDestination7+this.1 = fieldId4;
-        this.fieldDestination8+this.2 = fieldId4;
+        this.fieldDestination1+this.one = fieldId1;
+        this.fieldDestination2+this.two = fieldId1;
+        this.fieldDestination3+this.one = fieldId2;
+        this.fieldDestination4+this.two = fieldId2;
+        this.fieldDestination5+this.one = fieldId3;
+        this.fieldDestination6+this.two = fieldId3;
+        this.fieldDestination7+this.one = fieldId4;
+        this.fieldDestination8+this.two = fieldId4;
     }
 
 
@@ -66,8 +66,8 @@ var demo123CF_CopyFieldValue = new function() {
 }
 
 $( document ).ready(function() {
-    demo123CF_CopyFieldValue.setFieldOriginID('36040704);
-    demo123CF_CopyFieldValue.setFieldDestinationID('36198052', '36198259','36198489', '36198607');
+    demo123CF_CopyFieldValue.setFieldOriginID('36040704');
+    demo123CF_CopyFieldValue.setFieldDestinationID('36198052', '36198259', '36198489', '36198607');
 	
     demo123CF_CopyFieldValue.init();
 });
