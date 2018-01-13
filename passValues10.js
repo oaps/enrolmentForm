@@ -18,19 +18,19 @@ var demo123CF_CopyFieldValue = new function() {
     this.fieldDestination8 = '';
 
     this.setFieldOriginID = function ( fieldId1 ) {
-        this.fieldOrigin1+this.one = fieldId1;
-        this.fieldOrigin2+this.two = fieldId1;
+        this.fieldOrigin1 = fieldId1+this.one;
+        this.fieldOrigin2 = fieldId1+this.two;
     }
 
     this.setFieldDestinationID = function ( fieldId1, fieldId2, fieldId3, fieldId4 ) {
-        this.fieldDestination1+this.one = fieldId1;
-        this.fieldDestination2+this.two = fieldId1;
-        this.fieldDestination3+this.one = fieldId2;
-        this.fieldDestination4+this.two = fieldId2;
-        this.fieldDestination5+this.one = fieldId3;
-        this.fieldDestination6+this.two = fieldId3;
-        this.fieldDestination7+this.one = fieldId4;
-        this.fieldDestination8+this.two = fieldId4;
+        this.fieldDestination1 = fieldId1+this.one;
+        this.fieldDestination2 = fieldId1+this.two;
+        this.fieldDestination3 = fieldId2+this.one;
+        this.fieldDestination4 = fieldId2+this.two;
+        this.fieldDestination5 = fieldId3+this.one;
+        this.fieldDestination6 = fieldId3+this.two;
+        this.fieldDestination7 = fieldId4+this.one;
+        this.fieldDestination8 = fieldId4+this.two;
     }
 
 
