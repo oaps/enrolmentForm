@@ -20,7 +20,7 @@ var demo123CF_CopyFieldValue = new function() {
         this.fieldOrigin2 = fieldId2;
     }
 
-    this.setFieldDestinationID = function ( fieldId1, fieldId2, fieldId3, fieldId4, fieldId5, fieldId6, fieldId7, fieldId8 ) {
+    this.setFieldDestinationID = function ( fieldId1, fieldId2, fieldId3, fieldId4, fieldId5, fieldId6, fieldId7, fieldId8,fieldId9, fieldId10 ) {
         this.fieldDestination1 = fieldId1;
         this.fieldDestination2 = fieldId2;
         this.fieldDestination3 = fieldId3;
@@ -29,6 +29,8 @@ var demo123CF_CopyFieldValue = new function() {
         this.fieldDestination6 = fieldId6;
         this.fieldDestination7 = fieldId7;
         this.fieldDestination8 = fieldId8;
+        this.fieldDestination8 = fieldId9;
+        this.fieldDestination8 = fieldId10;
     }
 
 
@@ -45,6 +47,8 @@ var demo123CF_CopyFieldValue = new function() {
 	$(this.id123cf+this.fieldDestination6).val($(this.id123cf+this.fieldOrigin2).val());
         $(this.id123cf+this.fieldDestination7).val($(this.id123cf+this.fieldOrigin1).val());
 	$(this.id123cf+this.fieldDestination8).val($(this.id123cf+this.fieldOrigin2).val());
+	$(this.id123cf+this.fieldDestination9).val($(this.id123cf+this.fieldOrigin1).val());
+	$(this.id123cf+this.fieldDestination10).val($(this.id123cf+this.fieldOrigin2).val());
     }
 
     this.setOnChange = function () {
