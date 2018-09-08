@@ -2,7 +2,7 @@
  
     window.addEventListener('load', function(){
 
-        var sourceControlId = 44537495, /** THE ID OF THE SENDER CONTROL */
+        var sourceControlId = 36040704-1, /** THE ID OF THE SENDER CONTROL */
             targetControlId = 36073643, /** THE ID OF THE RECEIVER CONTROL **/
             sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
             targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
