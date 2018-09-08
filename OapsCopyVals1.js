@@ -31,7 +31,7 @@ var Oaps_CopyFieldValue = new function() {
 
 $( document ).ready(function() {
     Oaps_CopyFieldValue.setFieldOriginID1('36040704');
-    Oaps_CopyFieldValue.setFieldDestinationID1('44541693');
+    Oaps_CopyFieldValue.setFieldDestinationID1('44541819');
 
     Oaps_CopyFieldValue.init();
 });
