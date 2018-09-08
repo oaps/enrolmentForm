@@ -3,9 +3,9 @@ var oaps_CopyFieldValue = new function() {
 
     this.errorMessage = '';
 
-    this.fieldOrigin1 = '';
+    this.fieldOrigin1 = '36040704';
    
-    this.fieldDestination1 = '';
+    this.fieldDestination1 = '44541819';
    	
 
     this.setFieldOriginID1 = function ( fieldId1 ) {
@@ -26,8 +26,8 @@ var oaps_CopyFieldValue = new function() {
  
     window.addEventListener('load', function(){
 
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.fieldOrigin1),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(this.fieldDestination1);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById($(this.fieldOrigin1).val()),
+            targetControlInstance = loader.getEngine().getDocument().getElementById($(this.fieldDestination1).val());
 
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
