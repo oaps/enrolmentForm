@@ -26,8 +26,8 @@ var oaps_CopyFieldValue = new function() {
  
     window.addEventListener('load', function(){
 
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById($(this.fieldOrigin1).val()),
-            targetControlInstance = loader.getEngine().getDocument().getElementById($(this.fieldDestination1).val());
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById($this.fieldOrigin1),
+            targetControlInstance = loader.getEngine().getDocument().getElementById($this.fieldDestination1);
 
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
