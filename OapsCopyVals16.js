@@ -1,11 +1,6 @@
 var oaps_CopyFieldValue = new function() {
     var self = this;
 
-    this.errorMessage = '';
-
-    this.fieldOrigin1 = '36040704';
-   
-    this.fieldDestination1 = '44541819';
    	
 
     this.setFieldOriginID1 = function ( fieldId1 ) {
@@ -18,16 +13,16 @@ var oaps_CopyFieldValue = new function() {
     }
 
     this.init = function () {
-        this.setOnChange();
+        this.setOnChange('36040704', '44541819');
     }
     
 
-    this.setOnChange = function(){
+    this.setOnChange = function(o,i){
  
     window.addEventListener('load', function(){
 
-        var sourceControlId = this.fieldOrigin1,
-            targetControlId = this.fieldDestination,
+        var sourceControlId = o,
+            targetControlId = i,
             sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
             targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
 
