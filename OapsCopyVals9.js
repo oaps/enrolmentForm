@@ -1,33 +1,18 @@
 var oaps_CopyFieldValue = new function() {
     var self = this;
 
-    this.errorMessage = '';
-
-    this.fieldOrigin1 = '';
-   
-    this.fieldDestination1 = '';
-   	
-
-    this.setFieldOriginID1 = function ( fieldId1 ) {
-        this.fieldOrigin1 = fieldId1;
-    }
     
-    
-    this.setFieldDestinationID1 = function ( fieldId1 ) {
-        this.fieldDestination1 = fieldId1;
-    }
-
     this.init = function () {
-        this.setOnChange();
+        this.setOnChange('36040704', '44541819');
     }
     
 
-    this.setOnChange = function(){
+    this.setOnChange = function( source, dest){
  
      window.addEventListener('load', function(){
 
-        var sourceControlId = $(this.fieldOrigin1).val(),
-            targetControlId = $(this.fieldDestination1).val(),
+        var sourceControlId = source,
+            targetControlId = dest,
             sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
             targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
 
@@ -43,8 +28,6 @@ var oaps_CopyFieldValue = new function() {
 }
 
 $( document ).ready(function() {
-    oaps_CopyFieldValue.setFieldOriginID1('36040704');
-    oaps_CopyFieldValue.setFieldDestinationID1('44541819');
 
     oaps_CopyFieldValue.init();
 });
