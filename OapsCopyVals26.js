@@ -23,18 +23,27 @@ var demo123CF_CopyFieldValue = new function() {
 	$(this.id123cf+this.fieldDestination1).val($(this.id123cf+this.fieldOrigin1).val());
     }
 
-    this.setOnChange = function () {
+    this.setOnChange =function(){
+ 
+    window.addEventListener('load', function(){
 
-        //change event from start date to be copied to end date
-        $(this.id123cf+this.fieldOrigin1).change(function() {
-            self.updateDestinationValue1();
+        var sourceControlId = 36040704, /** THE ID OF THE SENDER CONTROL */
+            targetControlId = 44541819, /** THE ID OF THE RECEIVER CONTROL **/
+            sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
+
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
-    }
+
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+
+    });
+
+  }
 }
 
 $( document ).ready(function() {
-    demo123CF_CopyFieldValue.setFieldOriginID1('36040704-1', '36040704-2');
-
 
     demo123CF_CopyFieldValue.init();
 	
