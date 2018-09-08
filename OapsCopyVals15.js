@@ -26,8 +26,10 @@ var oaps_CopyFieldValue = new function() {
  
     window.addEventListener('load', function(){
 
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById($this.fieldOrigin1),
-            targetControlInstance = loader.getEngine().getDocument().getElementById($this.fieldDestination1);
+        var sourceControlId = this.fieldOrigin1,
+            targetControlId = this.fieldDestination,
+            sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
 
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -37,7 +39,7 @@ var oaps_CopyFieldValue = new function() {
 
     });
 
-  }
+   }
 }
 
 $( document ).ready(function() {
