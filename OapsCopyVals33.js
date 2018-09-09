@@ -28,10 +28,10 @@ var demo123CF_CopyFieldValue = new function() {
  
     window.addEventListener('load', function(){
 	console.log('**START**');
-	    this.inField = 123;
+	    this.inField = 36040704;
 	    console.log(this.inField);
 	    
-        var sourceControlId = 36040704, /** THE ID OF THE SENDER CONTROL */
+        var sourceControlId = this.inField, /** THE ID OF THE SENDER CONTROL */
             targetControlId = 44541819, /** THE ID OF THE RECEIVER CONTROL **/
             sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
             targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
