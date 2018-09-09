@@ -35,7 +35,7 @@ var demo123CF_CopyFieldValue = new function() {
         var /** sourceControlId = this.inField,  THE ID OF THE SENDER CONTROL */
          /**    targetControlId = this.outField, THE ID OF THE RECEIVER CONTROL **/
             sourceControlInstance = loader.getEngine().getDocument().getElementById(this.inField),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(his.outField);
+            targetControlInstance = loader.getEngine().getDocument().getElementById(this.outField);
 
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
