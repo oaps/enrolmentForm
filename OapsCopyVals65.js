@@ -1,4 +1,4 @@
-var Oaps_CopyFieldValue = new function() {
+var Oaps_CopyFieldValue = function() {
     var self = this;
 	this.childNameField =36040704 ;
 	this.relationshipField =36936048 ;
@@ -226,10 +226,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    }
-	
-	
-	
+    }	
 	
 }
 
