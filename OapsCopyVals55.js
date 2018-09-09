@@ -1,12 +1,20 @@
 var Oaps_CopyFieldValue = new function() {
     var self = this;
 	
+	
+function myFunction(name,job) {
+    console.log("Welcome " + name + ", the " + job);
+}
+	
+	
     this.init = function (){
-        this.setAllergyChildName();
+	    this.myFunction('dajlit', 'tech');
+        this.setAllergyChildName(in, out);
 	this.setAllergySignorName();
 	this.setAllergyRelationship();
     }
-    
+	
+	 
     this.setAllergyChildName = function(){
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
@@ -20,7 +28,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setAllergySignorName = function(){
       window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
