@@ -46,7 +46,7 @@ var Oaps_CopyFieldValue = new function() {
     this.setAllergySignorName = function(){
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36181455);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
