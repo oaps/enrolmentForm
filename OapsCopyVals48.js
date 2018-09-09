@@ -13,11 +13,17 @@ var Oaps_CopyFieldValue = new function() {
 	    this.relation = 36936048;
 
 /**Allergies **/
-	    var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.inChildName),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
+	
+
+        var sourceControlId = 36040704, /** THE ID OF THE SENDER CONTROL */
+            targetControlId = 36181440, /** THE ID OF THE RECEIVER CONTROL **/
+            sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
+
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
+
         targetControlInstance.setValue( sourceControlInstance.getValue() );
 
     });
