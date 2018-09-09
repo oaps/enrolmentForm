@@ -45,6 +45,6 @@ function greet(name) {
 $( document ).ready(function() {
 
 /**    demo123CF_CopyFieldValue.init(); **/
-	demo123CF_CopyFieldValue.greet('Daljit');
+	greet('Daljit');
 	
 });
