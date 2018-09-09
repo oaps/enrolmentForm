@@ -1,4 +1,4 @@
-var Oaps_CopyFieldValue = function() {
+var Oaps_CopyFieldValue = new function() {
     var self = this;
 	
     this.init = function (){
@@ -23,5 +23,5 @@ var Oaps_CopyFieldValue = function() {
 }
 
 $( document ).ready(function() {
-    Oaps_CopyFieldValue.init(); 
+	Oaps_CopyFieldValue.init();
 });
