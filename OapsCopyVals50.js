@@ -9,7 +9,7 @@ var Oaps_CopyFieldValue = new function() {
  
     window.addEventListener('load', function(){
 
-	    var sourceControlId = 36040704, /** THE ID OF THE SENDER CONTROL */
+        var sourceControlId = 36040704, /** THE ID OF THE SENDER CONTROL */
             targetControlId = 36181440, /** THE ID OF THE RECEIVER CONTROL **/
             sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
             targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
@@ -21,6 +21,7 @@ var Oaps_CopyFieldValue = new function() {
         targetControlInstance.setValue( sourceControlInstance.getValue() );
 
     });
+
   }
 }
 
