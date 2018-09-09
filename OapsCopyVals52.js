@@ -21,13 +21,6 @@ var Oaps_CopyFieldValue = new function() {
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
 	
-	var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.inSignor),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(36181455);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
 	
 	var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.relation),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181458);
