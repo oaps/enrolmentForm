@@ -1,12 +1,8 @@
 var demo123CF_CopyFieldValue = new function() {
     var self = this;
 	this.inField = new Number();
-
-	this.errorMessage = '';
-	this.id123cf = '#id123-control';
-	this.fieldOrigin1 = '36040704';
-   	this.fieldDestination1 = '44541819';
-
+	this.outField = new Number();
+	
 
     this.setFieldOriginID1 = function ( fieldId1 ) {
         this.fieldOrigin1 = fieldId1;
@@ -17,21 +13,24 @@ var demo123CF_CopyFieldValue = new function() {
     }
 
     this.init = function () {
-        this.setOnChange();
+        this.setOnChange(36040704, 44541819);
     }
     
     this.updateDestinationValue1 = function (){
 	$(this.id123cf+this.fieldDestination1).val($(this.id123cf+this.fieldOrigin1).val());
     }
 
-    this.setOnChange = function(){
+    this.setOnChange = function(in, out){
  
     window.addEventListener('load', function(){
-	console.log('**START2**');
+	console.log('**START3**');
+	    this.inField = in;
+	    this.outField = out;
+	    /**
 	    this.inField = 36040704;
 	    this.outField = 44541819;
 	    console.log(this.inField);
-	    
+	  **/  
         var /** sourceControlId = this.inField,  THE ID OF THE SENDER CONTROL */
          /**    targetControlId = this.outField, THE ID OF THE RECEIVER CONTROL **/
             sourceControlInstance = loader.getEngine().getDocument().getElementById(this.inField),
@@ -40,7 +39,6 @@ var demo123CF_CopyFieldValue = new function() {
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
-
         targetControlInstance.setValue( sourceControlInstance.getValue() );
 
     });
