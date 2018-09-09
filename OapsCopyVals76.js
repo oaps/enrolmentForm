@@ -47,8 +47,7 @@ var Oaps_CopyFieldValue = new function() {
     	});
     }
 
-
-/** SIGNATURES **/	
+	
     this.setSignatureSignorName = function(){
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
