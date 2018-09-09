@@ -6,6 +6,9 @@ var Oaps_CopyFieldValue = new function() {
         this.setAllergyChildName();
 	this.setAllergySignorName();
 	this.setAllergyRelationship();
+	
+	this.setSignatureSignorName();
+	this.setSignatureRelationship();    
 	    
     }
 
@@ -21,7 +24,6 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-	    console.log("Filled Allergy name");
      }
 	
     this.setAllergySignorName = function(){
@@ -33,7 +35,6 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-	    	    console.log("Filled Allergy signor");
      }
 
     this.setAllergyRelationship = function(){
@@ -45,9 +46,32 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-	    	    console.log("Filled Allergy relationship");
     }
 
+
+/** SIGNATURES **/	
+    this.setSignatureSignorName = function(){
+      window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936282);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+     }
+
+    this.setSignatureRelationship = function(){
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936258);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+    }
+	
 	
 }
 
