@@ -1,37 +1,40 @@
 var Oaps_CopyFieldValue = new function() {
     var self = this;
+	this.childNameField =36040704;
+	this.relationshipField =36936048;
+	this.signorNameField =36935922 ;
 		
     this.init = function (){
         this.setAllergyChildName();
 	this.setAllergySignorName();
 	this.setAllergyRelationship();
 	    
-	this.setSignatureSignorName
-	this.setSignatureRelationship
+	this.setSignatureSignorName();
+	this.setSignatureRelationship();
 	
-	this.setFieldTripChildName
-	this.setFieldTripSignorName
-	this.setFieldTripRelationship
+	this.setFieldTripChildName();
+	this.setFieldTripSignorName();
+	this.setFieldTripRelationship();
 	
 
-	this.setPhotographChildName
-	this.setPhotographSignorName
-	this.setPhotographRelationship
+	this.setPhotographChildName();
+	this.setPhotographSignorName();
+	this.setPhotographRelationship();
 	    
 
-	this.setSunScreenChildName
-	this.setSunScreenSignorName
-	this.setSunScreenRelationship
+	this.setSunScreenChildName();
+	this.setSunScreenSignorName();
+	this.setSunScreenRelationship();
 
-	this.setAgreementChildName
-	this.setAgreementSignorName
-	this.setAgreementRelationship
+	this.setAgreementChildName();
+	this.setAgreementSignorName();
+	this.setAgreementRelationship();
     }
 	
 /** ALLERGY **/	 
     this.setAllergyChildName = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.childNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -42,7 +45,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setAllergySignorName = function(){
       window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.signorNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -53,7 +56,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setAllergyRelationship = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.relationshipField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181458);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -66,7 +69,7 @@ var Oaps_CopyFieldValue = new function() {
 /** SIGNATURES **/	
     this.setSignatureSignorName = function(){
       window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.signorNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936282);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -77,7 +80,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setSignatureRelationship = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.relationshipField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936258);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -90,7 +93,7 @@ var Oaps_CopyFieldValue = new function() {
 /** FIELD TRIP **/	 
     this.setFieldTripChildName = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.childNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198052);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -101,7 +104,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setFieldTripSignorName = function(){
       window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.signorNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936025);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -112,7 +115,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setFieldTripRelationship = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.relationshipField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936060);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -124,7 +127,7 @@ var Oaps_CopyFieldValue = new function() {
 /** PHOTOGRAPH **/	 
     this.setPhotographChildName = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.childNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198259);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -135,7 +138,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setPhotographSignorName = function(){
       window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.signorNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936103);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -146,7 +149,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setPhotographRelationship = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.relationshipField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936123);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -158,7 +161,7 @@ var Oaps_CopyFieldValue = new function() {
 /** SUN SCREEN **/	 
     this.setSunScreenChildName = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.childNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198489);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -169,7 +172,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setSunScreenSignorName = function(){
       window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.signorNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936159);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -180,7 +183,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setSunScreenRelationship = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.relationshipField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936154);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -194,7 +197,7 @@ var Oaps_CopyFieldValue = new function() {
 /** AGREEMENT **/	 
     this.setAgreementChildName = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.childNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198607);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -205,7 +208,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setAgreementSignorName = function(){
       window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.signorNameField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198606);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -216,7 +219,7 @@ var Oaps_CopyFieldValue = new function() {
 
     this.setAgreementRelationship = function(){
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(this.relationshipField),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936517);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -224,9 +227,7 @@ var Oaps_CopyFieldValue = new function() {
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
     }
-	
-	
-	
+		
 	
 }
 
