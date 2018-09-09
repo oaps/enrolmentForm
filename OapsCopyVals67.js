@@ -3,10 +3,10 @@ var Oaps_CopyFieldValue = function() {
 	
     this.init = function (){
         this.setAllergyChildName();
-	this.setAllergySignorName();
-	this.setAllergyRelationship();
 	    
     }
+
+	
 	
 /** ALLERGY **/	 
     this.setAllergyChildName = function(){
