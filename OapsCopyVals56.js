@@ -9,7 +9,7 @@ function myFunction(name,job) {
 	
     this.init = function (){
 	    this.myFunction('dajlit', 'tech');
-        this.setAllergyChildName(in, out);
+        this.setAllergyChildName();
 	this.setAllergySignorName();
 	this.setAllergyRelationship();
     }
