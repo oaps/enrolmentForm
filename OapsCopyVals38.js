@@ -18,6 +18,7 @@ var demo123CF_CopyFieldValue = new function() {
 	    this.inField = 36040704;
 	    this.outField = 44541819;
 	    console.log(this.inField);
+	    console.log(this.outField);
 
 	    var /** sourceControlId = this.inField,  THE ID OF THE SENDER CONTROL */
          /**    targetControlId = this.outField, THE ID OF THE RECEIVER CONTROL **/
