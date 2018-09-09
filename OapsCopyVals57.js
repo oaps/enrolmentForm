@@ -2,13 +2,13 @@ var Oaps_CopyFieldValue = new function() {
     var self = this;
 	
 	
-function myFunction(name,job) {
+this.testFunc = function (name,job) {
     console.log("Welcome " + name + ", the " + job);
 }
 	
 	
     this.init = function (){
-	    this.myFunction('dajlit', 'tech');
+	    this.testFunc('dajlit', 'tech');
         this.setAllergyChildName();
 	this.setAllergySignorName();
 	this.setAllergyRelationship();
