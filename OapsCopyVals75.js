@@ -7,8 +7,7 @@ var Oaps_CopyFieldValue = new function() {
 	this.setAllergySignorName();
 	this.setAllergyRelationship();
 	
-	this.setSignatureSignorName();
-	this.setSignatureRelationship();    
+	this.setSignatureSignorName(); 
 	    
     }
 
@@ -61,16 +60,6 @@ var Oaps_CopyFieldValue = new function() {
     	});
      }
 
-    this.setSignatureRelationship = function(){
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(36936258);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-    }
 	
 	
 }
