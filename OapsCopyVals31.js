@@ -1,6 +1,6 @@
 var demo123CF_CopyFieldValue = new function() {
     var self = this;
-	var this.inField = new Number();
+	this.inField = new Number();
 
 	this.errorMessage = '';
 	this.id123cf = '#id123-control';
