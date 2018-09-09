@@ -2,16 +2,24 @@ var Oaps_CopyFieldValue = new function() {
     var self = this;
 	
 	
-this.testFunc = function (name,job) {
-    console.log("Welcome " + name + ", the " + job);
+this.testFunc = function (nameFrom,nameTo) {
+    console.log("FROM " + nameFrom + ", and TO " + nameTo);
+	window.addEventListener('load', function(nameFrom,nameTo){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(nameFrom),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(nameTo);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
 }
 	
 	
     this.init = function (){
-	    this.testFunc('dajlit', 'tech');
-        this.setAllergyChildName();
+	    this.testFunc(36040704,36181440);
+  /**      this.setAllergyChildName();
 	this.setAllergySignorName();
-	this.setAllergyRelationship();
+	this.setAllergyRelationship(); **/
     }
 	
 	 
