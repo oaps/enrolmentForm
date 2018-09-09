@@ -27,14 +27,15 @@ var demo123CF_CopyFieldValue = new function() {
     this.setOnChange = function(){
  
     window.addEventListener('load', function(){
-	console.log('**START**');
+	console.log('**START2**');
 	    this.inField = 36040704;
+	    this.outField = 44541819;
 	    console.log(this.inField);
 	    
-        var sourceControlId = this.inField, /** THE ID OF THE SENDER CONTROL */
-            targetControlId = 44541819, /** THE ID OF THE RECEIVER CONTROL **/
-            sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
+        var /** sourceControlId = this.inField,  THE ID OF THE SENDER CONTROL */
+         /**    targetControlId = this.outField, THE ID OF THE RECEIVER CONTROL **/
+            sourceControlInstance = loader.getEngine().getDocument().getElementById(this.inField),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(his.outField);
 
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
