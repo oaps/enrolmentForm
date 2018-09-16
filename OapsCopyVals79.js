@@ -3,31 +3,7 @@ var Oaps_CopyFieldValue = new function() {
 	
     this.init = function (){
 	    console.log("Starting Alergy fill");
-        this.setAllergyChildName();
-	this.setAllergySignorName();
-	this.setAllergyRelationship();
-	
-	    
-	this.setSignatureSignorName();
-	this.setSignatureRelationship();
-	
-	this.setFieldTripChildName();
-	this.setFieldTripSignorName();
-	this.setFieldTripRelationship();
-	
-
-	this.setPhotographChildName();
-	this.setPhotographSignorName();
-	this.setPhotographRelationship();
-	    
-
-	this.setSunScreenChildName();
-	this.setSunScreenSignorName();
-	this.setSunScreenRelationship();
-
-	this.setAgreementChildName();
-	this.setAgreementSignorName();
-	this.setAgreementRelationship();
+       
 	    
     }
 
