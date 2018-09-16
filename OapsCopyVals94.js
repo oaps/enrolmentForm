@@ -32,12 +32,7 @@ var Oaps_CopyFieldValue = new function() {
 	this.setSunScreenSignorName();
 	this.setSunScreenRelationship();
 	    console.log("Stopping Sunscreen fill");	    	    
-	
-
-	    	    console.log("Starting Agreement fill");	    	    
-	
-	    
-	    console.log("Stopping Agreement fill");	    	    
+	    	    
 
     }
 
