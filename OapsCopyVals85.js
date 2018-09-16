@@ -21,6 +21,12 @@ var Oaps_CopyFieldValue = new function() {
 	this.setFieldTripRelationship();
 	    console.log("Stopping Field Trip fill");
 	
+	    console.log("Starting Photo fill");	    
+	this.setPhotographChildName();
+	this.setPhotographSignorName();
+	this.setPhotographRelationship();
+	    	    console.log("Stopping Photo fill");	    
+
 
     }
 
