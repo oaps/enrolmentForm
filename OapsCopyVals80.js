@@ -3,7 +3,12 @@ var Oaps_CopyFieldValue = new function() {
 	
     this.init = function (){
 	    console.log("Starting Alergy fill");
-       
+        this.setAllergyChildName();
+	this.setAllergySignorName();
+	this.setAllergyRelationship();
+	
+	    
+	    console.log("Stopped Filling Alergy fill");
 	    
     }
 
@@ -18,6 +23,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    console.log("HERE 1");
      }
 	
     this.setAllergySignorName = function(){
@@ -29,6 +35,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    console.log("HERE 2");
      }
 
     this.setAllergyRelationship = function(){
@@ -40,6 +47,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    console.log("HERE 3");
     }
 
 		
