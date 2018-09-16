@@ -235,4 +235,4 @@ var Oaps_CopyFieldValue = new function() {
 
 $( document ).getElementById("Next Page").onclick = function() {
 	Oaps_CopyFieldValue.init();
-});
+};
