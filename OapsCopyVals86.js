@@ -27,6 +27,11 @@ var Oaps_CopyFieldValue = new function() {
 	this.setPhotographRelationship();
 	    	    console.log("Stopping Photo fill");	    
 
+	    console.log("Starting Sunscreen fill");	    	    
+	this.setSunScreenChildName();
+	this.setSunScreenSignorName();
+	this.setSunScreenRelationship();
+	    console.log("Stopping Sunscreen fill");	    	    
 
     }
 
