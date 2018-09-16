@@ -36,7 +36,6 @@ var Oaps_CopyFieldValue = new function() {
 
 	    	    console.log("Starting Agreement fill");	    	    
 	this.setAgreementChildName();
-	this.setAgreementSignorName();
 	    
 	    console.log("Stopping Agreement fill");	    	    
 
