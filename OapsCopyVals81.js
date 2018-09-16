@@ -6,9 +6,14 @@ var Oaps_CopyFieldValue = new function() {
         this.setAllergyChildName();
 	this.setAllergySignorName();
 	this.setAllergyRelationship();
-	
-	    
 	    console.log("Stopped Filling Alergy fill");
+	
+	    console.log("Starting Signature fill");
+	    
+	this.setSignatureSignorName();
+	this.setSignatureRelationship();
+	    console.log("Stopping Signature fill");
+	    
 	    
     }
 
@@ -60,6 +65,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    console.log("HERE 4");
      }
 
     this.setSignatureRelationship = function(){
@@ -71,6 +77,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    console.log("HERE 5");
     }
 	
 
