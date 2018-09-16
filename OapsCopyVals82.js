@@ -8,13 +8,38 @@ var Oaps_CopyFieldValue = new function() {
 	this.setAllergyRelationship();
 	    console.log("Stopped Filling Alergy fill");
 	
-	    console.log("Starting Signature fill");
 	    
+	    console.log("Starting Signature fill");
 	this.setSignatureSignorName();
 	this.setSignatureRelationship();
 	    console.log("Stopping Signature fill");
+
 	    
-	    
+	    console.log("Starting Field Trip fill");
+	this.setFieldTripChildName();
+	this.setFieldTripSignorName();
+	this.setFieldTripRelationship();
+	    console.log("Stopping Field Trip fill");
+	
+
+		console.log("Starting Photo fill");
+	this.setPhotographChildName();
+	this.setPhotographSignorName();
+	this.setPhotographRelationship();
+	    	    console.log("Stopping Photo fill");
+
+
+	    console.log("Starting Sunscreen fill");
+	this.setSunScreenChildName();
+	this.setSunScreenSignorName();
+	this.setSunScreenRelationship();
+	    console.log("Stopping Sunscreen fill");
+
+	    console.log("Starting Agreement fill");
+	this.setAgreementChildName();
+	this.setAgreementSignorName();
+	this.setAgreementRelationship();
+  	    console.log("Stopping Agreement fill");
     }
 
 	
@@ -91,6 +116,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 6");
      }
 
     this.setFieldTripSignorName = function(){
@@ -102,6 +128,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 7");
      }
 
     this.setFieldTripRelationship = function(){
@@ -113,6 +140,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 8");
     }
 	
 	
@@ -125,6 +153,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 9");
      }
 
     this.setPhotographSignorName = function(){
@@ -136,6 +165,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 10");
      }
 
     this.setPhotographRelationship = function(){
@@ -147,6 +177,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 11");
     }
 	
 	
@@ -159,6 +190,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 12");
      }
 
     this.setSunScreenSignorName = function(){
@@ -170,6 +202,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 13");
      }
 
     this.setSunScreenRelationship = function(){
@@ -181,6 +214,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 14");
     }
 	
 	
@@ -194,6 +228,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 15");
      }
 
     this.setAgreementSignorName = function(){
@@ -205,6 +240,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 16");
      }
 
     this.setAgreementRelationship = function(){
@@ -216,6 +252,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+	    	    	    	    console.log("HERE 17");
     }	
 
 	
