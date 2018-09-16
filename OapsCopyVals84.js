@@ -22,24 +22,6 @@ var Oaps_CopyFieldValue = new function() {
 	    console.log("Stopping Field Trip fill");
 	
 
-		console.log("Starting Photo fill");
-	this.setPhotographChildName();
-	this.setPhotographSignorName();
-	this.setPhotographRelationship();
-	    	    console.log("Stopping Photo fill");
-
-
-	    console.log("Starting Sunscreen fill");
-	this.setSunScreenChildName();
-	this.setSunScreenSignorName();
-	this.setSunScreenRelationship();
-	    console.log("Stopping Sunscreen fill");
-
-	    console.log("Starting Agreement fill");
-	this.setAgreementChildName();
-	this.setAgreementSignorName();
-	this.setAgreementRelationship();
-  	    console.log("Stopping Agreement fill");
     }
 
 	
