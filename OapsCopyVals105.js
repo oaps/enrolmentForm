@@ -233,6 +233,6 @@ var Oaps_CopyFieldValue = new function() {
 	
 }
 
-$( document ).getElementById("next-page").onclick = function() {
+$( document ).ready(function() {
 	Oaps_CopyFieldValue.init();
-};
+});
