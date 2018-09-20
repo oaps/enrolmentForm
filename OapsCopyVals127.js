@@ -233,21 +233,8 @@ var Oaps_CopyFieldValue = new function() {
 	
 }
 
-function(){
- 
-    window.addEventListener('load', function(){
+document.getElementById("text-00000012-acc").addEventListener("mouseover", myFunction);
 
-        var sourceControlId = 36073643, /** THE ID OF THE SENDER CONTROL */
-            targetControlId = 44949674, /** THE ID OF THE RECEIVER CONTROL **/
-            sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(targetControlId);
-
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-
-    });
-
-}();
+function myFunction() {
+    alert ("Hello World!");
+}
