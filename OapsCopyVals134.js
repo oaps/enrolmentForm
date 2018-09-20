@@ -33,9 +33,7 @@ var Oaps_CopyFieldValue = new function() {
 	    
     }
 
-	
-	
-    this.setAllergyChildName = function(){
+
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
@@ -44,9 +42,7 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 	
-    this.setAllergySignorName = function(){
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181455);
@@ -55,7 +51,6 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 
     this.setAllergyRelationship = function(){
      window.addEventListener('load', function(){
@@ -66,10 +61,10 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    }
+   
 
 		
-    this.setSignatureSignorName = function(){
+    
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936282);
@@ -78,9 +73,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
+     
 
-    this.setSignatureRelationship = function(){
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936258);
@@ -89,11 +83,9 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    }
 	
 
 	
-    this.setFieldTripChildName = function(){
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198052);
@@ -102,9 +94,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 
-    this.setFieldTripSignorName = function(){
+	    
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936025);
@@ -113,9 +104,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 
-    this.setFieldTripRelationship = function(){
+	    
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936060);
@@ -124,10 +114,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    }
 	
 	
-    this.setPhotographChildName = function(){
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198259);
@@ -136,9 +124,9 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
+     
 
-    this.setPhotographSignorName = function(){
+	    
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936103);
@@ -147,9 +135,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 
-    this.setPhotographRelationship = function(){
+	    
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936123);
@@ -158,10 +145,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    }
 	
-	
-    this.setSunScreenChildName = function(){
+
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198489);
@@ -170,9 +155,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 
-    this.setSunScreenSignorName = function(){
+
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936159);
@@ -181,9 +165,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 
-    this.setSunScreenRelationship = function(){
+	
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936154);
@@ -192,11 +175,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    }
-	
-	
-		 
-    this.setAgreementChildName = function(){
+    	
+
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198607);
@@ -205,9 +185,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
 
-    this.setAgreementSignorName = function(){
+
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36198606);
@@ -216,9 +195,8 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-     }
+     
 
-    this.setAgreementRelationship = function(){
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936517);
@@ -227,7 +205,6 @@ var Oaps_CopyFieldValue = new function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    }	
 
 	
 	
