@@ -242,7 +242,5 @@ $( document ).ready(function() {
     });
 	
 	
-    });
-	
 	
 });
