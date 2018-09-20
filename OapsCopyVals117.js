@@ -237,7 +237,7 @@ $( document ).ready(function() {
 	Oaps_CopyFieldValue.init();
 	alert("The form has been loaded.");
 	
-	$("text-00000012-acc").change(function(){
+	$("input").change(function(){
         alert("The text has been changed.");
     });
 	
