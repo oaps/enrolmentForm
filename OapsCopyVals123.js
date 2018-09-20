@@ -233,8 +233,7 @@ var Oaps_CopyFieldValue = new function() {
 	
 }
 
-
-	$(document).getElementsById('text-00000012-acc')[0].addEventListener('change', function(){
-        alert("The text has been changed.");
-    });
+$( document ).ready(function() {	
+	Oaps_CopyFieldValue.init();
 	
+});
