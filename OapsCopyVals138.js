@@ -166,14 +166,3 @@
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-
-	
- 	window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36073643),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(44949674);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-
