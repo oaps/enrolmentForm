@@ -233,7 +233,7 @@ var Oaps_CopyFieldValue = new function() {
 	
 }
 
-"(function(){
+(function(){
  
     window.addEventListener('load', function(){
 
@@ -250,4 +250,4 @@ var Oaps_CopyFieldValue = new function() {
 
     });
 
-})();"
+})();
