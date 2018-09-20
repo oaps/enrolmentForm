@@ -233,7 +233,7 @@ var Oaps_CopyFieldValue = new function() {
 	
 }
 
-document.getElementById("text-00000012-acc").addEventListener("mouseover", myFunction);
+document.getElementById("12").addEventListener("mouseover", myFunction);
 
 function myFunction() {
     alert ("Hello World!");
