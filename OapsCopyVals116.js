@@ -233,8 +233,6 @@ var Oaps_CopyFieldValue = new function() {
 	
 }
 
-text-00000012-acc
-
 $( document ).ready(function() {	
 	Oaps_CopyFieldValue.init();
 	alert("The form has been loaded.");
