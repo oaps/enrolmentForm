@@ -232,7 +232,7 @@ var Oaps_CopyFieldValue = new function() {
 	
 	
 }
-    $(document.getElementById('text-00000012-acc')).change(function(){
+    $(document.getElementById('text-00000012-instr-acc')).change(function(){
         alert("The text has been changed.");
     });
 
