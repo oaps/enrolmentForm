@@ -1,39 +1,3 @@
-var Oaps_CopyFieldValue = new function() {
-    var self = this;
-	
-    this.init = function (){
-	    
-	console.log("Starting Alergy fill");
-        
-	this.setAllergyChildName();
-	this.setAllergySignorName();
-	this.setAllergyRelationship();
-	
-	    
-	this.setSignatureSignorName();
-	this.setSignatureRelationship();
-	
-	this.setFieldTripChildName();
-	this.setFieldTripSignorName();
-	this.setFieldTripRelationship();
-	
-
-	this.setPhotographChildName();
-	this.setPhotographSignorName();
-	this.setPhotographRelationship();
-	    
-
-	this.setSunScreenChildName();
-	this.setSunScreenSignorName();
-	this.setSunScreenRelationship();
-
-	this.setAgreementChildName();
-	this.setAgreementSignorName();
-	this.setAgreementRelationship();
-	    
-    }
-
-
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
@@ -63,8 +27,6 @@ var Oaps_CopyFieldValue = new function() {
     	});
    
 
-		
-    
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936282);
@@ -207,9 +169,6 @@ var Oaps_CopyFieldValue = new function() {
     	});
 
 	
-	
-}
-
  window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36073643),
             targetControlInstance = loader.getEngine().getDocument().getElementById(44949674);
@@ -219,6 +178,3 @@ var Oaps_CopyFieldValue = new function() {
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
 
-$( document ).ready(function() {	
-	Oaps_CopyFieldValue.init();    	
-});
