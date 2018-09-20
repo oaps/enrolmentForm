@@ -232,8 +232,7 @@ var Oaps_CopyFieldValue = new function() {
 	
 	
 }
-$(document).ready(function(){
-    $("button").change(function(){
+    $(document.getElementById('text-00000012-acc')).change(function(){
         alert("The text has been changed.");
     });
-});
+
