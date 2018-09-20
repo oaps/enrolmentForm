@@ -232,13 +232,7 @@ var Oaps_CopyFieldValue = new function() {
 	
 	
 }
-var x = document.getElementById("36073643");
-x.addEventListener("mouseover", myFunction);
 
-
-function myFunction() {
-     alert("myFunction");
-}
 
 $( document ).ready(function() {	
 	Oaps_CopyFieldValue.init();
