@@ -232,7 +232,8 @@ var Oaps_CopyFieldValue = new function() {
 	
 	
 }
-
-$( document ).ready(function() {
-	Oaps_CopyFieldValue.init();
+$(document).ready(function(){
+    $("button").change(function(){
+        alert("The text has been changed.");
+    });
 });
