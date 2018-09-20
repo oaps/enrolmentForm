@@ -233,12 +233,7 @@ var Oaps_CopyFieldValue = new function() {
 	
 }
 
-
-$( document ).ready(function() {	
-	Oaps_CopyFieldValue.init();
-	
-	
-     window.addEventListener('load', function(){
+ window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36073643),
             targetControlInstance = loader.getEngine().getDocument().getElementById(44949674);
         sourceControlInstance.on('value-change', function(){
@@ -246,5 +241,7 @@ $( document ).ready(function() {
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
-    	
+
+$( document ).ready(function() {	
+	Oaps_CopyFieldValue.init();    	
 });
