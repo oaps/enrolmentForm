@@ -6,6 +6,33 @@
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
+
+
+window.addEventListener('load', function(){
+
+        var sourceControlId = 46002798,
+            targetControlId = 36181458,
+            domAbstractionLayer = loader.getDOMAbstractionLayer(),
+            sourceControlInstance = loader.getEngine().getDocument().getElementById(sourceControlId);
+
+        sourceControlInstance.on('value-change', function(){
+            domAbstractionLayer.setControlValueById(
+                String(targetControlId),
+                domAbstractionLayer.getControlValueById(
+                    String(sourceControlId)
+                )
+            );
+        });
+
+        domAbstractionLayer.setControlValueById(
+            String(targetControlId),
+            domAbstractionLayer.getControlValueById(
+                String(sourceControlId)
+            )
+        );
+
+    });
+
 	
       window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
