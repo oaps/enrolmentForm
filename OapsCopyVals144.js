@@ -35,6 +35,17 @@
     	});
 
 
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844560),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(48844673);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+
+
 
 
 
@@ -86,6 +97,14 @@
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
 
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844569),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(48844680);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
 
 
 
