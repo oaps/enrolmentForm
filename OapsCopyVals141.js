@@ -1,6 +1,6 @@
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844560),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844756);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36181440);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -8,8 +8,8 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844560),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844765);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36198052);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -17,8 +17,8 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844560),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844785);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36198259);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -26,8 +26,8 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844560),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844794);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36198489);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -36,8 +36,8 @@
 
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844560),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844673);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36040704),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36198607);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -45,66 +45,6 @@
     	});
 
 
-
-
-
-
-
-
-
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844569),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844750);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844569),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844759);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844569),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844779);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844569),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844788);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844569),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844799);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844569),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844680);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
 
 
 
@@ -113,8 +53,8 @@
 
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844751),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844760);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36181455);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -122,8 +62,8 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844751),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844780);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936282);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -131,8 +71,8 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844751),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844789);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936025);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -140,8 +80,26 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844751),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844800);
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936103);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936159);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+    	
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36935922),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36198606);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
@@ -153,38 +111,120 @@
 
 
 
+
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(46002798),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(46003033);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(46002798),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(46003038);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(46002798),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(46003039);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(46002798),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(46003040);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(46002798),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(46003041);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(46002798),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(46003042);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+
+
+
+
+
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36181458);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936258);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936060);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
+
+     window.addEventListener('load', function(){
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936123);
+        sourceControlInstance.on('value-change', function(){
+            targetControlInstance.setValue( sourceControlInstance.getValue() );
+        });
+        targetControlInstance.setValue( sourceControlInstance.getValue() );
+    	});
 
 
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844761);
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936154);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
         targetControlInstance.setValue( sourceControlInstance.getValue() );
     	});
 
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844781);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
 
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844790);
-        sourceControlInstance.on('value-change', function(){
-            targetControlInstance.setValue( sourceControlInstance.getValue() );
-        });
-        targetControlInstance.setValue( sourceControlInstance.getValue() );
-    	});
-
-     window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
-            targetControlInstance = loader.getEngine().getDocument().getElementById(48844801);
+            targetControlInstance = loader.getEngine().getDocument().getElementById(36936517);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
         });
