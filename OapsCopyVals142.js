@@ -172,9 +172,6 @@
 
 
 
-
-
-
      window.addEventListener('load', function(){
         var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36181458);
@@ -185,7 +182,7 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936258);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -194,7 +191,7 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936060);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -203,7 +200,7 @@
     	});
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936123);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -213,7 +210,7 @@
 
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936154);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
@@ -223,7 +220,7 @@
 
 
      window.addEventListener('load', function(){
-        var sourceControlInstance = loader.getEngine().getDocument().getElementById(48844752),
+        var sourceControlInstance = loader.getEngine().getDocument().getElementById(36936048),
             targetControlInstance = loader.getEngine().getDocument().getElementById(36936517);
         sourceControlInstance.on('value-change', function(){
             targetControlInstance.setValue( sourceControlInstance.getValue() );
